@@ -81,7 +81,7 @@ pcarprint((a,b))
 ppolprint((a,b))
 ```
 
-## Authors
+## Author
 
 * **Christian Torres** - *First commit* - [christiantorres29](https://github.com/christiantorres29/cnyt)
 
