@@ -20,7 +20,7 @@ For this library, a complex number *a+bj* is denoted as a tuple like (a,b)
 
 This complex library contents the following functions
 
-* [cplxsum()](##cplxX())
+* [cplxsum()](#cplxx)
 * [cplxsus()](##cplxX())
 * [cplxprod()](##cplxX())
 * [cplxdiv()](##cplxX())
