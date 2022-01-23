@@ -1,5 +1,5 @@
 # python cache
-__pucache__
+__pycache__
 
 # Compiled class file
 *.class
