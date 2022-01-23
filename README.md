@@ -60,7 +60,7 @@ phase((a,b))
 
 conj((a,b))
 ```
-## Coordinates convertion
+## Coordinates conversion
 Convert a tuple in cartesian coordinates to polar coordinates or visceversa.
 
 ```
