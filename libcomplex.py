@@ -6,19 +6,20 @@ def pcarprint(num):
     print(str(num[0])+"+"+str(num[1])+"i")
 
 def ppolprint(num):
-    print(str(num[0])+"∠"+str(num[1]))
+    num[1]=num[1]/pi
+    print(str(num[0])+"∠"+str(num[1])+'\u03C0')
 
-def suma(c1,c2):
+def cplxsum(c1,c2):
     a=c1[0]+c2[0]
     b=c1[1]+c2[1]
     return (a,b)
 
-def resta(c1,c2):
+def cplxsus(c1,c2):
     a=c1[0]-c2[0]
     b=c1[1]-c2[1]
     return (a,b)
 
-def prod(c1,c2):
+def cplxprod(c1,c2):
     a=c1[0]*c2[0]-c1[1]*c2[1]
     b=c1[0]*c2[1]+c1[1]*c2[0]
     return (a,b)
@@ -32,12 +33,12 @@ def module(c1):
     rho=math.sqrt(c1[0]**2 +c1[1]**2)
     return rho
 
-def div(c1,c2):
+def cplxdiv(c1,c2):
     d=module(c2)
     try:
         d=1/d
     except ZeroDivisionError:
-        print("Error in calling \"div\" function from 'libcomplex', ZeroDivisionError: division by zero")
+        print("Error in calling 'div' function from libcomplex, ZeroDivisionError: division by zero")
         return 
     d=module(c2)**2
     a=(c1[0]*c2[0]+c1[1]*c2[1])/d
