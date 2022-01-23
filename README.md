@@ -2,7 +2,7 @@
 
 This is a README for `libcomplex.py`, a complex library functions for python
 
-INSTALLING
+Installation
 ==========
 
 Download the folder "cnyt" from this repository with
@@ -14,7 +14,7 @@ You will get a folrder with `libcomplex.py`, just copy-paste the file to your wo
 ```
 from libcomplex import *
 ```
-USAGE
+Usage
 ======
 For this library, a complex number *a+bj* is denoted as a tuple like (a,b)
 
