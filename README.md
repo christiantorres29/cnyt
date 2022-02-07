@@ -73,7 +73,7 @@ Pretty cartesian print and pretty polar print.
 
 The `pcarprint()` print in *a+bj* format.
 
-The `ppolprint()` print in *r∠$\theta$* format, where $\theta$ are expressed in terms of $\pi$
+The `ppolprint()` print in *r∠θ* format, where θ are expressed in terms of π
 
 ```
 pcarprint((a,b))
