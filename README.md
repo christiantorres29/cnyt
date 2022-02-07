@@ -48,7 +48,7 @@ cplxdiv((a,b),(c,d))
 ## Other operations
 Magnitude `module()` of a complex number. 
 
-Phase `phase()` in radians of a complex number, this function takes values from cero to 2 $\pi$ (6.283185307179586).
+Phase `phase()` in radians of a complex number, this function takes values from cero to 2 π (6.283185307179586).
 
 Conjugate `conj()` of a complex number
 
